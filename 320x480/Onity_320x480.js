@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"Onity_320x480_atlas_1", frames: [[0,962,640,190],[0,1154,299,86],[0,0,640,960]]}
+		{name:"Onity_320x480_atlas_1", frames: [[0,962,640,190],[0,1154,272,78],[0,0,640,960]]}
 ];
 
 
@@ -27,27 +27,27 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_4 = function() {
-	this.initialize(img.CachedBmp_4);
+(lib.CachedBmp_6 = function() {
+	this.initialize(img.CachedBmp_6);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,3632,1128);
 
 
-(lib.CachedBmp_3 = function() {
+(lib.CachedBmp_5 = function() {
 	this.initialize(ss["Onity_320x480_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_5 = function() {
+(lib.CachedBmp_4 = function() {
 	this.initialize(ss["Onity_320x480_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Onity320x480 = function() {
+(lib.Onity320x480alt = function() {
 	this.initialize(ss["Onity_320x480_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
@@ -82,7 +82,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Passport_svg
-	this.instance = new lib.CachedBmp_4();
+	this.instance = new lib.CachedBmp_6();
 	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -93,7 +93,7 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(0,0,1816,564);
 
 
-(lib.OnityLOGORGBsvg = function(mode,startPosition,loop,reversed) {
+(lib.OnityLOGORGBnoTMsvg = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -104,17 +104,17 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	// Onity_LOGO_RGB_svg
+	// Onity_LOGO_RGB_noTM_svg
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#FFFFFF").s().p("EAzZAenIHUtzMgQ5gimIMWAAIKHYcIK34cIK0AAMgXWAwZgEhouANKQm3lXAApaIAAjJQAAnRFBlZQFKlkIwhtIAdgFIAAGeIgTAEQjfAwh4DpQhzDgAAFgIAADUQAAGiCgDXQDdEqIuAAQIuAADdkqQCgjXAAmiIAAjUQAAlghzjfQh4jpjfgxIgTgEIAAmeIAcAFQIxBtFKFkQFBFZAAHRIAADJQAAJam3FXQnCFfsuABQssgBnClfgAWPPBQjQihAAj/IAA1WIlsAAIAAk/IFsAAIAAnpILliNIAAJ2IIXAAIAAE/IoXAAIAAU+QAACHBUBKQBbBPC4AAQAuAAAsgGQAjgEAzgLIAAE5Qg8ARhYAMQhsAPh5ABQnEAAjvi5gAkIQxMAAAgilILkAAMAAAAilgA3aQxIAA4oQAAifh3heQiVh1lBAAQioAAh9ARQhiANh3AfIAAddIrlAAMAAAgg3QH7igMHAAQKrAAFNDNQEbCvAAErIAAYwgEhYVgGRIAA4WIGwAAIAAYWgEBbygYLIi+AAIAAhbIIRAAIAABaIjAAAIACKdIiVABgEBnwgNvIgQgtIi+oeIgBgCIABABIhLJMIh9AAIBsr3ICTAAIDDJAIDLpAICTAAIBsL0IiOAAIhJpIIgsCAIiYGsIgLAfg");
-	this.shape.setTransform(714.225,195.95);
+	this.shape.graphics.f("#FFFFFF").s().p("EBAOAenIHUtzMgQ5gimIMWAAIKHYcIK34cIK0AAMgXWAwZgEhb5ANKQm3lXAApaIAAjJQAAnRFBlZQFLlkIvhtIAdgFIAAGeIgTAEQjfAwh4DpQhzDgAAFgIAADUQAAGiCgDXQDeEqItAAQIuAADdkqQCgjXAAmiIAAjUQABlgh0jfQh4jpjfgxIgTgEIAAmeIAcAFQIyBtFJFkQFCFZAAHRIAADJQAAJam4FXQnCFfstABQstgBnClfgEAjEAPBQjPihgBj/IAA1WIlrAAIAAk/IFrAAIAAnpILliNIAAJ2IIXAAIAAE/IoXAAIAAU+QAACHBUBKQBbBPC4AAQAuAAAsgGQAjgEAzgLIAAE5Qg7ARhZAMQhsAPh5ABQnEAAjvi5gAItQxMAAAgilILkAAMAAAAilgAqkQxIAA4oQAAifh4heQiVh1lBAAQioAAh9ARQhhANh4AfIAAddIrlAAMAAAgg3QH8igMGAAQKsAAFMDNQEaCvABErIAAYwgEhLggGRIAA4WIGwAAIAAYWg");
+	this.shape.setTransform(632.1,195.95);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,1428.5,391.9);
+p.nominalBounds = new cjs.Rectangle(0,0,1264.2,391.9);
 
 
 (lib.HEAD = function(mode,startPosition,loop,reversed) {
@@ -129,7 +129,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_3();
+	this.instance = new lib.CachedBmp_5();
 	this.instance.setTransform(-160,-47.4,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -151,21 +151,21 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_2
-	this.instance = new lib.CachedBmp_5();
-	this.instance.setTransform(-67.95,-19.15,0.4546,0.4546);
+	this.instance = new lib.CachedBmp_4();
+	this.instance.setTransform(-68,-19.2,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	// Layer_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FFFFFF").s().p("AumDkQgogBAAgoIAAl1QAAgoAogBIdNAAQAoABAAAoIAAF1QAAAogoABg");
-	this.shape.setTransform(0.0283,-0.248,0.877,0.8571);
+	this.shape.setTransform(0.073,-0.248,0.7778,0.8571);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.CTA, new cjs.Rectangle(-85.5,-19.7,171.1,39.7), null);
+}).prototype = getMCSymbolPrototype(lib.CTA, new cjs.Rectangle(-75.7,-19.7,151.60000000000002,39.5), null);
 
 
 (lib.Passport = function(mode,startPosition,loop,reversed) {
@@ -202,14 +202,14 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.OnityLOGORGBsvg("synched",0);
+	this.instance = new lib.OnityLOGORGBnoTMsvg("synched",0);
 	this.instance.setTransform(0,0.05,1,1,0,0,0,714.2,196);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.LOGO, new cjs.Rectangle(-714.2,-195.9,1428.5,391.9), null);
+}).prototype = getMCSymbolPrototype(lib.LOGO, new cjs.Rectangle(-714.2,-195.9,1264.2,391.9), null);
 
 
 // stage content:
@@ -242,24 +242,31 @@ if (reversed == null) { reversed = false; }
 
 	// LOGO
 	this.instance = new lib.LOGO();
-	this.instance.setTransform(102.05,34,0.11,0.11,0,0,0,0.5,0);
+	this.instance.setTransform(85.15,441.5,0.09,0.09,0,0,0,0.6,0.6);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(180));
 
 	// Passport
 	this.instance_1 = new lib.Passport();
-	this.instance_1.setTransform(108,294,0.09,0.09,0,0,0,0.6,0.6);
+	this.instance_1.setTransform(100,52,0.09,0.09,0,0,0,0.6,0.6);
 	this.instance_1.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1).to({regX:0,regY:0,x:107.95,y:290.2571,alpha:0.2},0).wait(1).to({y:287.2981,alpha:0.4},0).wait(1).to({y:285.4247,alpha:0.6},0).wait(1).to({y:284.3955,alpha:0.8},0).wait(1).to({regX:0.6,regY:0.6,x:108,y:284,alpha:1},0).wait(175));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1).to({regX:0,regY:0,x:100.3193,y:48.2571,alpha:0.2},0).wait(1).to({x:100.6152,y:45.2981,alpha:0.4},0).wait(1).to({x:100.8025,y:43.4247,alpha:0.6},0).wait(1).to({x:100.9054,y:42.3955,alpha:0.8},0).wait(1).to({regX:0.6,regY:0.6,x:101,y:42,alpha:1},0).wait(175));
+
+	// shad
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.rf(["rgba(0,0,0,0.337)","rgba(0,0,0,0)"],[0,0.502],-0.1,-0.1,0,-0.1,-0.1,272).s().p("A9udxQsTsVAAxcQAAxbMTsWQMUsVRagBQRaABMUMVQMUMWAARbQAARcsUMVQsUMXxagBQxaABsUsXg");
+	this.shape_1.setTransform(94.45,45.2);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(180));
 
 	// CTA
 	this.instance_2 = new lib.CTA();
-	this.instance_2.setTransform(160,450.75);
+	this.instance_2.setTransform(232.85,442.75,0.7921,0.7921,0,0,0,0.5,0.5);
 	this.instance_2.alpha = 0;
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(19).to({_off:false},0).to({alpha:1},7).wait(61).to({regX:0.1,regY:0.1,scaleX:1.1,scaleY:1.1,y:450.8},3,cjs.Ease.quadIn).to({regX:0,regY:0,scaleX:1,scaleY:1,y:450.75},5).wait(71).to({regX:0.1,regY:0.1,scaleX:1.1,scaleY:1.1,y:450.8},3,cjs.Ease.quadIn).to({regX:0,regY:0,scaleX:1,scaleY:1,y:450.75},5).wait(6));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(19).to({_off:false},0).to({alpha:1},7).wait(61).to({scaleX:0.8713,scaleY:0.8713},3,cjs.Ease.quadIn).to({scaleX:0.7921,scaleY:0.7921},5).wait(71).to({scaleX:0.8713,scaleY:0.8713},3,cjs.Ease.quadIn).to({scaleX:0.7921,scaleY:0.7921},5).wait(6));
 
 	// HEAD
 	this.instance_3 = new lib.HEAD();
@@ -267,25 +274,25 @@ if (reversed == null) { reversed = false; }
 	this.instance_3.alpha = 0;
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(8).to({_off:false},0).wait(1).to({y:382.0607,alpha:0.125},0).wait(1).to({y:379.8662,alpha:0.25},0).wait(1).to({y:378.0564,alpha:0.375},0).wait(1).to({y:376.6868,alpha:0.5},0).wait(1).to({y:375.706,alpha:0.625},0).wait(1).to({y:375.0395,alpha:0.75},0).wait(1).to({y:374.6212,alpha:0.875},0).wait(1).to({y:374.4,alpha:1},0).wait(164));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(8).to({_off:false},0).wait(1).to({y:379.7214,alpha:0.125},0).wait(1).to({y:375.3325,alpha:0.25},0).wait(1).to({y:371.7128,alpha:0.375},0).wait(1).to({y:368.9735,alpha:0.5},0).wait(1).to({y:367.0121,alpha:0.625},0).wait(1).to({y:365.6789,alpha:0.75},0).wait(1).to({y:364.8423,alpha:0.875},0).wait(1).to({y:364.4,alpha:1},0).wait(164));
 
 	// BKGD
-	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#19468D").s().p("A4/MgIAA4/MAx/AAAIAAY/g");
-	this.shape_1.setTransform(160,400);
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.f("#003395").s().p("A4/NSIAA6jMAx/AAAIAAajg");
+	this.shape_2.setTransform(160,395);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(180));
+	this.timeline.addTween(cjs.Tween.get(this.shape_2).wait(180));
 
 	// PIC
-	this.instance_4 = new lib.Onity320x480();
-	this.instance_4.setTransform(0,0,0.5,0.5);
+	this.instance_4 = new lib.Onity320x480alt();
+	this.instance_4.setTransform(0,-10,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(180));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(159.5,239.5,161,241);
+p.nominalBounds = new cjs.Rectangle(-14.6,15.7,378.1,464.8);
 // library properties:
 lib.properties = {
 	id: 'A79EFEC4A97F49888D3F6FD01A528C13',
@@ -295,8 +302,8 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_4.png?1680109409549", id:"CachedBmp_4"},
-		{src:"images/Onity_320x480_atlas_1.png?1680109409526", id:"Onity_320x480_atlas_1"}
+		{src:"images/CachedBmp_6.png?1680133182120", id:"CachedBmp_6"},
+		{src:"images/Onity_320x480_atlas_1.png?1680133182087", id:"Onity_320x480_atlas_1"}
 	],
 	preloads: []
 };
