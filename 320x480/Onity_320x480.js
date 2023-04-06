@@ -556,7 +556,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Onity_320x480_atlas_NP_1.jpg?1680309166041", id:"Onity_320x480_atlas_NP_1"}
+		{src:"images/Onity_320x480_atlas_NP_1.jpg", id:"Onity_320x480_atlas_NP_1"}
 	],
 	preloads: []
 };
